@@ -1,0 +1,15 @@
+{
+  "name": "wardogs-gold-tracker",
+  "version": "1.0.0",
+  "description": "Tracks the WARDOGS gold bar cash price and says whether to buy or wait.",
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/seed.mjs",
+    "fetch": "node scripts/fetch-price.mjs",
+    "add": "node scripts/fetch-price.mjs",
+    "test": "node --test test/signal.test.mjs",
+    "start": "npx --yes serve site"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
